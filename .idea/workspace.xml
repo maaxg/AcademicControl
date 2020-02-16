@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/gui/ControllerStudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/StudentView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ControllerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainView.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,16 +66,31 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Xrj2QC9oL5KUt1HLVx2teKGOpd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -73,6 +100,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -80,20 +109,32 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\ControleAcadêmico\src" />
+      <recent name="C:\Users\PC\IdeaProjects\ControleAcadêmico\src\META-INF" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -187,6 +228,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1581810903786" duration="2612000" />
+      <workItem from="1581863977789" duration="11052000" />
     </task>
     <servers />
   </component>
@@ -195,40 +237,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="23" key="#Project_Structure" timestamp="1581810985791">
+    <state x="283" y="23" key="#Project_Structure" timestamp="1581866064901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581810985791" />
-    <state x="145" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581815196340">
+    <state x="283" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581866064901" />
+    <state x="145" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581865309043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="145" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581815196340" />
-    <state x="231" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1581813892318">
+    <state x="145" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581865309043" />
+    <state x="231" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1581869315769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="231" y="104" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581813892318" />
-    <state x="397" y="106" key="FileChooserDialogImpl" timestamp="1581813485240">
+    <state x="231" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581869315769" />
+    <state x="443" y="272" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1581867230999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="397" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581813485240" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1581815319114">
+    <state x="443" y="272" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1581867230999" />
+    <state x="397" y="106" key="FileChooserDialogImpl" timestamp="1581873617309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581815319114" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1581815319113">
+    <state x="397" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581873617309" />
+    <state width="1323" height="261" key="GridCell.Tab.0.bottom" timestamp="1581878788697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581815319113" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1581815319113">
+    <state width="1323" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581878788697" />
+    <state width="1323" height="261" key="GridCell.Tab.0.center" timestamp="1581878788697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581815319113" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1581815319113">
+    <state width="1323" height="261" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581878788697" />
+    <state width="1323" height="261" key="GridCell.Tab.0.left" timestamp="1581878788697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581815319113" />
+    <state width="1323" height="261" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581878788697" />
+    <state width="1323" height="261" key="GridCell.Tab.0.right" timestamp="1581878788697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="261" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581878788697" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1581873620591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581873620591" />
+    <state x="499" y="143" key="chooseDestDirectoryDialog" timestamp="1581868349023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="143" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581868349023" />
+    <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581868628730">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1581868628730" />
+    <state x="66" y="0" key="new project wizard" timestamp="1581868721439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="66" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581868721439" />
   </component>
 </project>
