@@ -16,11 +16,18 @@ import java.io.IOException;
 public class ControllerMain {
     @FXML
     private Button btnStudent;
-
+    @FXML
+    private Button btnTeacher;
+    @FXML
+    private Button btnAdmin;
     @FXML
     public void onButtonStudent(){
         loadView("/gui/StudentView.fxml");
     }
+    @FXML
+    public void  onButtonTeacher(){loadView("/gui/TeacherView.fxml");}
+    @FXML
+    public void  onButtonAdmin(){loadView("/gui/AdministratorView.fxml");}
 
     private synchronized void loadView(String absolutePath){
         try{

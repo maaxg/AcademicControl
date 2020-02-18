@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <ScrollPane prefHeight="393.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllerMain">
    <content>
       <GridPane prefHeight="393.0" prefWidth="600.0">
@@ -27,27 +26,27 @@
                   <Font name="System Bold Italic" size="23.0" />
                </font>
             </Label>
-            <Button fx:id="btnStudent" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onButtonStudent" prefHeight="76.0" prefWidth="136.0" text="STUDENT" GridPane.rowIndex="1">
+            <Button fx:id="btnStudent" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onButtonStudent" prefHeight="76.0" prefWidth="136.0" text="STUDENT" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets left="30.0" />
                </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="169.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="136.0" text="TEACHER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="btnTeacher" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="169.0" mnemonicParsing="false" onAction="#onButtonTeacher" prefHeight="76.0" prefWidth="136.0" text="TEACHER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets left="30.0" />
                </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="169.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="136.0" text="ADMINISTRATOR" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="btnAdmin" alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="169.0" mnemonicParsing="false" onAction="#onButtonAdmin" prefHeight="76.0" prefWidth="136.0" text="ADMINISTRATOR" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets left="30.0" />
                </GridPane.margin>
             </Button>
-            <Label prefHeight="85.0" prefWidth="195.0" text="Select how do you want to get in:" GridPane.columnIndex="1">
+            <Label prefHeight="85.0" prefWidth="215.0" text="Select how do you want to get in:" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="5.0" top="75.0" />
+                  <Insets left="5.0" />
                </GridPane.margin>
                <font>
-                  <Font name="System Bold" size="12.0" />
+                  <Font name="System Bold" size="12.3" />
                </font>
             </Label>
          </children>
