@@ -29,12 +29,12 @@ public class ControllerMain {
     @FXML
     public void  onButtonAdmin(){loadView("/gui/AdministratorView.fxml");}
 
-    private synchronized void loadView(String absolutePath){
+    protected synchronized void loadView(String absolutePath){
         try{
             FXMLLoader loader = new FXMLLoader(getClass().getResource(absolutePath));
             GridPane newPane = loader.load();
 
-            Scene mainScene = Main.getMainScene();
+            Scene  mainScene = Main.getMainScene();
 
             GridPane mainPane = (GridPane) ((ScrollPane) mainScene.getRoot()).getContent();
 
@@ -49,5 +49,6 @@ public class ControllerMain {
         }catch (IOException ex){
             System.err.println("Error " + ex.getMessage());
         }
+
     }
 }

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllerStudentView">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -63,7 +63,7 @@
             <Insets bottom="150.0" left="30.0" />
          </GridPane.margin>
       </Button>
-      <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="81.0" text="Registration" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="81.0" text="  Registration" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets bottom="150.0" left="120.0" />
          </GridPane.margin>
@@ -71,7 +71,7 @@
             <Insets bottom="5.0" right="5.0" top="5.0" />
          </padding>
       </Button>
-      <Button fx:id="btnBackToMain" mnemonicParsing="false" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="3">
+      <Button fx:id="btnBackToMain" mnemonicParsing="false" onAction="#onBtnBack" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="70.0" />
          </GridPane.margin>
